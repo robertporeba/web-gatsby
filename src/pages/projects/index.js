@@ -7,8 +7,7 @@ export default function index() {
   return (
     <Layout>
       <div className={styles.portfolio}>
-        <h2>Projectss</h2>
-
+        <h2>Projects</h2>
         <h3>title</h3>
       </div>
     </Layout>
