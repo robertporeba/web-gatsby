@@ -9,7 +9,7 @@ module.exports = {
   plugins: [],
   siteMetadata: {
     title: 'Web Gatsby',
-    descritpion: 'gatsby',
+    description: 'gatsby',
     copyright: 'copyright 2021'
   }
 }
