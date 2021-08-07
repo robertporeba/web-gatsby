@@ -6,6 +6,7 @@ import * as styles from "../styles/home.module.css";
 
 export default function Home({ data }) {
   const { description, title } = data.site.siteMetadata;
+
   return (
     <Layout>
       <section className={styles.header}>
