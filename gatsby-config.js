@@ -6,10 +6,18 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `notes`,
+        path: `${__dirname}/src/notes/`,
+      },
+    },
+  ],
   siteMetadata: {
-    title: 'Web Gatsby',
-    description: 'gatsby',
-    copyright: 'copyright 2021'
-  }
-}
+    title: "Web Gatsby",
+    description: "gatsby",
+    copyright: "copyright 2021",
+  },
+};
